@@ -4,7 +4,9 @@ import MenuBar from './MenuBar';
 import ConversationSpace from './ConversationSpace'
 import FacebookLogin from 'react-facebook-login'
 
-
+function componentClicked(){
+  console.log("clicked");
+}
 function App() {
   const [login , changeLogin] = useState(false);
   const [data, setData] = useState({});
@@ -17,6 +19,7 @@ function App() {
         autoLoad={true}
         fields="name,email,picture"
         scope="pages_show_list, pages_read_user_content, pages_messaging"
+        onClick={componentClicked}
         callback={(response) => {
             if(response.accessToken){
               changeLogin(true);
