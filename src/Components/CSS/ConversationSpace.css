@@ -1,0 +1,6 @@
+.ConversationSpace{
+    display: flex;
+    flex-direction: row;
+    width:97%;
+    border:1px solid black;
+}

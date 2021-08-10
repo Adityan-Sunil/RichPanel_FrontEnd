@@ -1,0 +1,29 @@
+.ConversationUser{
+    width:20%;
+    border:1px solid red;
+}
+.user{
+    width:100%;
+    border:1px solid black;
+}
+.user-profile{
+    height:40vh;
+
+}
+.user-dets{
+    height:15vh;
+    width:94%;
+    margin:3%;
+}
+.user-pfp{
+    text-align:center;
+}
+.profile-dets{
+    margin:2%;
+}
+.pfp{
+    margin-top:10%;
+}
+.contact>button{
+    margin:1%;
+}
