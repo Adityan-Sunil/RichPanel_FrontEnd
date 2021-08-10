@@ -15,7 +15,7 @@ function App() {
   return(
     <div className="App">   
     {(!login ? <FacebookLogin
-        appId="6138773676163381"
+        appId={process.env.appId}
         autoLoad={true}
         fields="name,email,picture"
         scope="pages_show_list, pages_read_user_content, pages_messaging"
